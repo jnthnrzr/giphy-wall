@@ -1,20 +1,37 @@
 {
   "name": "giphy-wall",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "An infinitely scrolling wall of trending gifs from Giphy.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jnthnrzr/giphy-wall.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["giphy", "react"],
+  "author": "Jonathan Rozario",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jnthnrzr/giphy-wall/issues"
   },
-  "homepage": "https://github.com/jnthnrzr/giphy-wall#readme"
+  "homepage": "https://github.com/jnthnrzr/giphy-wall#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
