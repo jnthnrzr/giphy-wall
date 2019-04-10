@@ -1,0 +1,20 @@
+{
+  "name": "giphy-wall",
+  "version": "1.0.0",
+  "description": "An infinitely scrolling wall of trending gifs from Giphy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnthnrzr/giphy-wall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnthnrzr/giphy-wall/issues"
+  },
+  "homepage": "https://github.com/jnthnrzr/giphy-wall#readme"
+}
