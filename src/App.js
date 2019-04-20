@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import response0 from './response-0';
 import response1 from './response-1';
 import response2 from './response-2';
-
+import Loader from './Loader';
 import './App.css';
-import './loader.css';
 
 const getUrl = id => `https://media2.giphy.com/media/${id}/200w.gif`;
 
@@ -164,7 +163,7 @@ class App extends Component {
             )
           )}
         </div>
-        {loading && <div className="loader" />}
+        <Loader loading={loading} />
       </div>
     );
   }
