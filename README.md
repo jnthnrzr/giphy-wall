@@ -1,5 +1,7 @@
 # Giphy Wall
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8d6cfe5e-a936-41bb-9c58-808dcc8f2aac/deploy-status)](https://app.netlify.com/sites/giphywall/deploys)
+
 An infinitely scrolling wall of trending gifs from Giphy.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
