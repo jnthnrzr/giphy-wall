@@ -6,6 +6,12 @@ An infinitely scrolling wall of trending gifs from Giphy.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Secrets
+
+The React app **does not** use the Giphy API directly. Making a direct request to the Giphy API leaks the API Key, unique to each developer. Instead, the app makes a request to a backend that in turn makes the Giphy API request. As the backend server can be designed to respond like the Giphy API, it can be developed separately, e.g. [express-gifs](https://github.com/jnthnrzr/express-gifs). This separate endpoint is stored as an environment variable `REACT_APP_API_URL`. So before running the project, please ensure that this value is valid.
+
+If this seems like extra work, feel free to set `REACT_APP_API_URL` to the Giphy API endpoint `http://api.giphy.com/v1/gifs/trending?api_key=API_KEY`, where `API_KEY` is the Giphy developer key.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -72,3 +78,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## License
+
+MIT
